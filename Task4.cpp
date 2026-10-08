@@ -1,5 +1,15 @@
-//
-// Created by Shoxruz Vladimirov on 08/10/26.
-//
+#include <iostream>
+#include <string>
+using namespace std;
 
-#include "Task4.h"
+int main() {
+
+  int n;
+  cin >> n;
+  if (n<10){
+    cout >> n >> endly;
+  }
+  else{
+    cout >> n%9 >> endly;
+  }
+}
