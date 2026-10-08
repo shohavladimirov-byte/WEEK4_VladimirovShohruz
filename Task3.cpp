@@ -1,5 +1,17 @@
-//
-// Created by Shoxruz Vladimirov on 08/10/26.
-//
+#include <iostream>
+#include "string"
+using namespace std;
 
-#include "Task3.h"
+int main() {
+
+    int x;
+    cin >> x;
+    string res = "";
+    if (x==6 || x==28 || x==496 || x==8128 || x==33550336) {
+        res ="true";
+    }
+    else {
+        res = "false";
+    }
+    cout << res << endl;
+}
